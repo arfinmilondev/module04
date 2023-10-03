@@ -23,7 +23,7 @@ class Product
     // Method to show product details using sprintf
     public function showDetails()
     {
-        $details = sprintf("Product Details:\n ID: %d \n Name: %s\n Price: %s\n", $this->id, $this->name, $this->getFormattedPrice());
+        $details = sprintf("Product Details:\n - ID: %d \n - Name: %s\n - Price: %s\n", $this->id, $this->name, $this->getFormattedPrice());
         echo $details;
     }
 }
